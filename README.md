@@ -104,22 +104,6 @@
 | 签名真实性 | 错误对象 Schema、隐藏 Prompt 注入检测、请求一致性 |
 | Token 审计 | Token 计费核验、Prompt 缓测行为 |
 
-## 项目结构
-
-```
-├── server/           # 后端服务
-│   ├── index.mjs     # HTTP 服务入口
-│   └── lib/          # 探针逻辑、评分、协议适配
-├── src/              # 前端源码
-│   ├── pages/        # 页面组件
-│   ├── lib/          # API 客户端
-│   └── i18n/         # 国际化
-├── public/           # 静态资源
-│   └── ui-assets/    # UI 素材
-└── dist/             # 构建产物
-```
-
-
 ---
 ## 结尾
 
